@@ -8,7 +8,7 @@ const App = () => {
                 <h1>this is a NAV</h1>
             </div>
             <Suspense fallback={"loading..."}>
-                <PocMfFooter label={"this label cames from app 1"} />
+                <PocMfFooter label={"A label from Nav"} />
             </Suspense>
         </div>
     );
